@@ -1,0 +1,36 @@
+body {
+    font-family: 'Sarabun', sans-serif;
+    background-color: #f4f7f9;
+    text-align: center;
+    margin: 0;
+}
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+/* ปุ่มระบบการเรียน (สีผสมตามโจทย์) */
+.elearning-button {
+    width: 350px;
+    height: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    background: linear-gradient(135deg, #1abc9c, #3498db, #e74c3c); 
+    transition: transform 0.3s;
+}
+.elearning-button:hover { transform: translateY(-5px); }
+
+/* ฟอร์มและปุ่มทั่วไป */
+.container { max-width: 600px; margin: 20px auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; }
+button.action-btn { padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; margin: 5px; font-size: 16px; }
+.btn-confirm { background-color: #2ecc71; color: white; }
+.btn-cancel { background-color: #95a5a6; color: white; }
